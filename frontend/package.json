@@ -1,0 +1,14 @@
+{
+  "name": "gash",
+  "version": "1.0.0",
+  "description": "standalone note gui bullshit",
+  "main": "gash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && cp *.html *.js *.css dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "gash",
+  "description": "standalone note gui bullshit",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev": "",
+  "wails:generate": false,
+  "version": "1.0.0",
+  "outputfilename": "gash",
+  "debounceMS": 100,
+  "build:dir": "build",
+  "author": {
+    "name": "shmup"
+  }
+}

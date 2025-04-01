@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gash</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="toolbar">
+      <button onclick="formatBold()"><b>B</b></button>
+      <button onclick="formatItalic()"><i>I</i></button>
+      <button onclick="formatHeading(1)">H1</button>
+      <button onclick="formatHeading(2)">H2</button>
+      <button onclick="formatParagraph()">P</button>
+      <button onclick="formatJustify('left')">Left</button>
+      <button onclick="formatJustify('center')">Center</button>
+      <button onclick="formatJustify('right')">Right</button>
+      <button onclick="insertImage()">Image</button>
+      <span class="save-status" id="saveStatus">Saved</span>
+    </div>
+    <div id="editor" contenteditable="true" class="editor"></div>
+    <script src="gash.js"></script>
+  </body>
+</html>
